@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+
+    <datasource jndi-name="java:jboss/datasources/personService" pool-name="personService-ds" enabled="true"
+                use-java-context="true">
+        <connection-url>jdbc:h2:mem:personService;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
+        <driver>h2</driver>
+        <security>
+            <user-name>sa</user-name>
+            <password>sa</password>
+        </security>
+    </datasource>
+
+</datasources>
